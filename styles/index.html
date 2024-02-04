@@ -3,52 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="path/to/bootstrap.min.css">
-    <link rel="stylesheet" href="styles/uikit/raw-main.css">
-    <link rel="stylesheet" href="styles/uikit/main.scss">
+    <link rel="stylesheet" href="../styles/uikit/_variables.scss">
+    <link rel="stylesheet" href="../styles/uikit/raw-main.css">
+    <link rel="stylesheet" href="../styles/uikit/main.scss">
     <title>Onboarding Exercise</title>
 </head>
 <body>
     <nav class="navbar">
-        <div class="navbar-left">
-            <a href="index.html" class="logo"><img src="recorde/linkedin.png"></a>
-
-            <div class="search-box">
-                <img src="recorde/google.png">
-                <input type="text" placeholder="Search">
-            </div>
-
-        </div>
+       
         <div class="navbar-right">
         <ul>
-            <li><a href="#" class="active-link"><img src="recorde/linkedin1.png"> <span>Home</span></a></li>
-            <li><a href="#"><img src="recorde/linkedin1.png"> <span>Activity</span></a></li>
+            <li><a href="#" class="active-link"><span>PREVIEW</span></a></li>
+            <i class="ki-duotone ki-
+                                           abstract-28                        ">
+                <span class="path1"></span>
+                <span class="path2"></span>
+            </i>
+            <li><a href="#"><span>Approved</span></a></li>
+            <li><a href="#"><span>ACTIVITY</span></a></li>
 
         </ul>
     </nav>
 
 <div id="app_container">
-    <!-- Your content goes here -->
+    <!------------- left-sidebar ------------> 
+    <div class="left-sidebar">
+        <div class="sidebar-profile-box">
+            <img src="../media/exercise.png" width="45%">
+            <div class="sidebar-profile-info">
+                <li>Vivamus magna justo, lacinia eget consectetur sed,</li>
+                <li>convallis at tellus. Cras ultricies ligula sed magna</li>
+                <li>dictum porta. Nulla quis lorem ut libero malesuada</li>
+                <li>feugiat. em uteria... <span>see more</span></li>
+            </div>
+            <div class="sidebar-profile-link">
+                <a href="#"><img src="recorde/snapchat.png"> My items</a>
+                <a href="#"><img src="recorde/snapchat.png"> Try Premium</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<! ------------- right-sidebar ------------>
+    <div class="right-sidebar">
+        <div class="sidebar-news">
+            <img src="recorde/youtube.png" class="info-icon">
+            <h3>Trending News</h3>
+            <a href="#">High demand for skilled manpower</a>
+            <span>1d ago &middot; 10,934 readers</span>
+
+            <a href="#">Careers growing horizontally too</a>
+            <span>19h ago &middot; 1,552 readers</span>
+
+            <a href="#">Less work visa for US, more for UK</a>
+            <span>1d ago &middot; 27,290 readers</span>
+
+            <a href="#">More hiring = higher confidence?</a>
+            <span>18h ago &middot; 8,208 readers</span>
+
+            <a href="#">Gautam Adani isthe word's third richest</a>
+            <span>12h ago &middot; 4,205 readers</span>
+
+            <a href="#" class="read-more-link">Read More</a>
+        </div>
+        <div class="sidebar-ad">
+            <small>AD &middot; &middot; &middot; </small>
+            <p>Master the 5 priciples of web design</p>
+            <div>
+                <img src="image/logo.png.jpg">
+                <img src="image/user-1.png.jpg">
+            </div>
+            <b>Brand and Demand in Xiaomi</b>
+            <a href="#" class="ad-link">Learn More</a>
+        </div>
+        <div class="sidebar-useful-link">
+            <a href="#">About</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Help Center</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Advertising</a>
+            <a href="#">Get the App</a>
+            <a href="#">More</a>
+            <div class="copyright-msg">
+                <img src="recorde/linkedin.png">
+                <p>Linkedup &#169; 2023. All right reserved</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!--   <!-- Your content goes here --
 <button class="open-modal-btn" data-modal-id="modal1">Open Modal 1</button>
 <button class="open-modal-btn" data-modal-id="modal2">Open Modal 2</button>
 
     <div class="modal" id="modal1">
         <div class="modal-content">
-            <!-- Modal 1 content goes here -->
+            <!-- Modal 1 content goes here --
             <span class="close-modal-btn">&times;</span>
         </div>
     </div>
 
     <div class="modal" id="modal2">
         <div class="modal-content">
-            <!-- Modal 2 content goes here -->
+            <!-- Modal 2 content goes here --
             <span class="close-modal-btn">&times;</span>
         </div>
     </div>
-</div>
+</div> -->
 
-<script src="path/to/jquery.min.js"></script>
-<script src="path/to/bootstrap.bundle.min.js"></script>
+<script src="../scripts/uikit/custom.js"></script>
+<script src="https://preview.keenthemes.com/html/metronic/docs/index"></script>
 <script src="scripts/uikit/custom.js"></script>
 </body>
 </html>

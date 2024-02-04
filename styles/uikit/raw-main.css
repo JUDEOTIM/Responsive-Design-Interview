@@ -1,2 +1,77 @@
 /* raw-main.css */
 /* Your custom CSS styles go here */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #f0f0f0;
+    color: #070707;
+}
+
+/*------------- right-sidebar -----------------*/
+.navbar{
+    flex-basis: 100%;
+    align-self: auto;
+}
+
+/* ---------------nav bar ---------*/
+
+.navbar-right{
+    display: flex;
+    align-items: flex-start;
+}
+.navbar-right li{
+    list-style: none;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    flex-basis: 25%;
+    height: 40px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+/*.create-post-links li img{
+    width: 25px;
+    margin-right: 5px;
+}
+.create-post-links li:last-child{
+    background: #045be6;
+    color: #fff;
+    border-top: 0;
+    border-radius: 0;
+}*/
+
+.navbar-right ul li{
+    display: inline-block;
+    list-style: none;
+}
+.navbar-right ul li a {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 5px 8px;
+    padding-right: 5px;
+    position: relative;
+}
+.navbar-right ul li a img{
+    width: 20px;
+}
+
+.navbar-right ul li a::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #045be6;
+    position: relative;
+    bottom: -15px;
+    transition: widith 0.3s;
+}
+.navbar-right ul li a:hover::after,
+.navbar-right ul li a.active-link::after{
+    width: 100%;
+}
