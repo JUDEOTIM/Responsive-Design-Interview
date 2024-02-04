@@ -4,34 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="path/to/bootstrap.min.css">
-    <link rel="stylesheet" href="raw-main.css">
-    <link rel="stylesheet" href="main.scss">
+    <link rel="stylesheet" href="styles/uikit/raw-main.css">
+    <link rel="stylesheet" href="styles/uikit/main.scss">
     <title>Onboarding Exercise</title>
 </head>
 <body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="recorde/linkedin.png"></a>
+
+            <div class="search-box">
+                <img src="recorde/google.png">
+                <input type="text" placeholder="Search">
+            </div>
+
+        </div>
+        <div class="navbar-right">
+        <ul>
+            <li><a href="#" class="active-link"><img src="recorde/linkedin1.png"> <span>Home</span></a></li>
+            <li><a href="#"><img src="recorde/linkedin1.png"> <span>Activity</span></a></li>
+
+        </ul>
+    </nav>
 
 <div id="app_container">
     <!-- Your content goes here -->
 <button class="open-modal-btn" data-modal-id="modal1">Open Modal 1</button>
 <button class="open-modal-btn" data-modal-id="modal2">Open Modal 2</button>
 
- <div class="modal" id="modal1">
-     <div class="modal-content">
-         <!-- Modal 1 content goes here -->
-         <span class="close-modal-btn">&times;</span>
-     </div>
- </div>
+    <div class="modal" id="modal1">
+        <div class="modal-content">
+            <!-- Modal 1 content goes here -->
+            <span class="close-modal-btn">&times;</span>
+        </div>
+    </div>
 
- <div class="modal" id="modal2">
-     <div class="modal-content">
-         <!-- Modal 2 content goes here -->
-         <span class="close-modal-btn">&times;</span>
-     </div>
- </div>
+    <div class="modal" id="modal2">
+        <div class="modal-content">
+            <!-- Modal 2 content goes here -->
+            <span class="close-modal-btn">&times;</span>
+        </div>
+    </div>
 </div>
 
 <script src="path/to/jquery.min.js"></script>
 <script src="path/to/bootstrap.bundle.min.js"></script>
-<script src="custom.js"></script>
+<script src="scripts/uikit/custom.js"></script>
 </body>
 </html>

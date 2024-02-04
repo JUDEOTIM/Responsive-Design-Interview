@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="path/to/bootstrap.min.css">
-    <link rel="stylesheet" href="raw-main.css">
-    <link rel="stylesheet" href="main.scss">
+    <link rel="stylesheet" href="styles/uikit/raw-main.css">
+    <link rel="stylesheet" href="styles/uikit/main.scss">
     <title>Onboarding Exercise</title>
 </head>
 <body>
@@ -33,6 +33,6 @@
 
 <script src="path/to/jquery.min.js"></script>
 <script src="path/to/bootstrap.bundle.min.js"></script>
-<script src="custom.js"></script>
+<script src="scripts/uikit/custom.js"></script>
 </body>
 </html>
